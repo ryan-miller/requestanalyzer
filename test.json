@@ -1,0 +1,232 @@
+[
+ {
+  "id": "1a",
+  "serverHostname": "server.hostname.com",
+  "remoteIP": "41.83.3.73",
+  "remoteHostname": "remoteHostname",
+  "remoteCountryCode": "SN",
+  "userAgent": "Mozilla/5.0 (compatible; Bingbot/2.0; +http://www.bing.com/bingbot.htm)",
+  "timestamp": "2022-03-28T19:06:42Z",
+  "method": "GET",
+  "serverName": "www.wheeloffortune.com",
+  "protocol": "HTTP/1.1",
+  "tlsProtocol": "TLS12",
+  "tlsCipher": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+  "path": "/wheel-watchers/my-spin-id",
+  "uri": "/wheel-watchers/my-spin-id",
+  "scheme": "https",
+  "headersIn": [
+   [
+    "Host",
+    "www.wheeloffortune.com"
+   ],
+   [
+    "X-Forwarded-Proto",
+    "https"
+   ],
+   [
+    "X-Forwarded-Port",
+    "443"
+   ]
+  ],
+  "agentResponseCode": 200,
+  "responseCode": 200,
+  "responseSize": 19300,
+  "responseMillis": 67,
+  "headersOut": [
+   [
+    "X-Cache-Hits",
+    "25"
+   ],
+   [
+    "Content-Encoding",
+    "gzip"
+   ],
+   [
+    "Server",
+    "nginx"
+   ]
+  ],
+  "summation": {
+   "attrs": {
+    "AllPreSignalsInformational": "false",
+    "country": "SN"
+   },
+   "attacks": []
+  },
+  "tags": [
+   {
+    "type": "IMPOSTOR",
+    "location": "HEADERIN",
+    "value": "Mozilla/5.0 (compatible; Bingbot/2.0; +http://www.bing.com/bingbot.htm)",
+    "detector": "IMPOSTOR",
+    "redaction": "",
+    "link": ""
+   }
+  ]
+ },
+ {
+  "id": "2b",
+  "serverHostname": "server.hostName.edu",
+  "remoteIP": "31.13.115.24",
+  "remoteHostname": "fwdproxy-lla-024.fbsv.net",
+  "remoteCountryCode": "IE",
+  "userAgent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+  "timestamp": "2022-03-28T19:06:08Z",
+  "method": "GET",
+  "serverName": "www.sonypictures.com",
+  "protocol": "HTTP/1.1",
+  "tlsProtocol": "TLS12",
+  "tlsCipher": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+  "path": "/movies/spidermannowayhome",
+  "uri": "/movies/spidermannowayhome",
+  "scheme": "https",
+  "headersIn": [
+   [
+    "Host",
+    "www.host.com"
+   ],
+   [
+    "Cache-Control",
+    "max-age=10"
+   ],
+   [
+    "Accept",
+    "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+   ]
+  ],
+  "agentResponseCode": 200,
+  "responseCode": 200,
+  "responseSize": 17299,
+  "responseMillis": 5,
+  "headersOut": [
+   [
+    "X-Generator",
+    "Drupal 9 (https://www.drupal.org)"
+   ],
+   [
+    "Vary",
+    "Cookie,Accept-Encoding"
+   ],
+   [
+    "Content-Encoding",
+    "gzip"
+   ],
+   [
+    "Content-Language",
+    "en"
+   ]
+  ],
+  "summation": {
+   "attrs": {
+    "AllPreSignalsInformational": "false",
+    "country": "IE"
+   },
+   "attacks": []
+  },
+  "tags": [
+   {
+    "type": "IMPOSTOR",
+    "location": "HEADERIN",
+    "value": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "detector": "IMPOSTOR",
+    "redaction": "",
+    "link": ""
+   }
+  ]
+ },
+ {
+  "id": "3c",
+  "serverHostname": "ip-172-24-5-50.us-west-2.compute.internal-7cea32",
+  "remoteIP": "82.165.182.87",
+  "remoteHostname": "",
+  "remoteCountryCode": "DE",
+  "userAgent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+  "timestamp": "2022-03-28T19:05:35Z",
+  "method": "GET",
+  "serverName": "productionservices.hostname.com",
+  "protocol": "HTTP/1.1",
+  "tlsProtocol": "TLS12",
+  "tlsCipher": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+  "path": "/009A61/jwplayer5/player.swf",
+  "uri": "/009A61/jwplayer5/player.swf",
+  "scheme": "https",
+  "headersIn": [
+   [
+    "Akamai-Origin-Hop",
+    "3"
+   ],
+   [
+    "Akamai-Origin-Hop",
+    "4"
+   ],
+   [
+    "Akamai-Origin-Hop",
+    "5"
+   ],
+   [
+    "True-Client-Ip",
+    "82.165.182.87"
+   ],
+   [
+    "Accept-Encoding",
+    "gzip"
+   ],
+   [
+    "Cache-Control",
+    "max-age=86400"
+   ]
+  ],
+  "agentResponseCode": 200,
+  "responseCode": 404,
+  "responseSize": 10929,
+  "responseMillis": 80,
+  "headersOut": [
+   [
+    "Server",
+    "nginx"
+   ],
+   [
+    "X-Ah-Environment",
+    "prod"
+   ],
+   [
+    "Cache-Control",
+    "max-age=900, public"
+   ]
+  ],
+  "summation": {
+   "attrs": {
+    "AllPreSignalsInformational": "false",
+    "country": "DE"
+   },
+   "attacks": []
+  },
+  "tags": [
+   {
+    "type": "IMPOSTOR",
+    "location": "HEADERIN",
+    "value": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
+    "detector": "IMPOSTOR",
+    "redaction": "",
+    "link": ""
+   },
+   {
+    "type": "DATACENTER",
+    "location": "1\u00261 Internet",
+    "value": "1\u00261 Internet",
+    "detector": "DATACENTER",
+    "redaction": "",
+    "link": ""
+   },
+   {
+    "type": "HTTP404",
+    "location": "",
+    "value": "404",
+    "detector": "HTTPERROR",
+    "redaction": "",
+    "link": ""
+   }
+  ]
+ }
+]
