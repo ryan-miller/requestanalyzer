@@ -1,4 +1,5 @@
 import pytest
+import json
 from .requestanalyzer import RequestAnalyzer
 
 class Test:
@@ -27,3 +28,9 @@ class Test:
     def test_canSummarizeAllHeaders(self, ra):
         headerSummary = {"Accept":1, "Accept-Encoding":1, "Akamai-Origin-Hop":3, "Cache-Control":2, "Host":2, "True-Client-Ip":1, "X-Forwarded-Port":1, "X-Forwarded-Proto":1}
         assert ra.headerSummary() == headerSummary
+
+    def test_throwsJSONDecodeErrorOnInvalidJSON(self):
+        with pytest.raises(json.JSONDecodeError):
+            badJson = RequestAnalyzer('bad_test.json')
+
+        
