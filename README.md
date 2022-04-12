@@ -1,8 +1,8 @@
 Signal Science site requests analyzer.
 
-Export request data as json from Salt https://salt.beefalo.sigsci.net/corps/<<corp>>/sites/<<site>>/requests. 
+Export request data as json from Salt https://salt.beefalo.sigsci.net/corps/<insert_corp>/sites/<insert_site>/requests. 
 
-<< Insert getdata.png>>
+<img width="1218" alt="getdata" src="https://user-images.githubusercontent.com/820914/162868154-0d7b0db2-b8fc-4f12-a277-893593a10d96.png">
 
 This project has utilities to parse and analyze the Salt output. 
 
